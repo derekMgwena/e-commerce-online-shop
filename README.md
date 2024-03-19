@@ -1,12 +1,7 @@
-# Payload E-Commerce Template
+# Payload E-Commerce Online shop 
 
-This is the official [Payload E-Commerce Template](https://github.com/payloadcms/payload/blob/main/templates/ecommerce). Use it to power e-commerce businesses and online stores of all sizes. This repo includes a fully-working backend, enterprise-grade admin panel, and a beautifully designed, production-ready website.
+This is the official [Payload E-Commerce ](https://github.com/payloadcms/payload/blob/main/templates/ecommerce). Use it to power e-commerce businesses and online stores of all sizes. This repo includes a fully-working backend, enterprise-grade admin panel, and a beautifully designed, production-ready website.
 
-This template is right for you if you are selling:
-
-- Physical products like clothing or merchandise
-- Digital assets like ebooks or videos
-- Access to content like courses or premium articles
 
 Core features:
 
@@ -25,6 +20,7 @@ Core features:
 To spin up this example locally, follow these steps:
 
 ### Clone
+npm install 
 
 If you have not done so already, you need to have standalone copy of this repo on your machine. If you've already cloned this repo, skip to [Development](#development).
 
@@ -319,3 +315,35 @@ The easiest way to deploy your project is to use [Payload Cloud](https://payload
 ## Questions
 
 If you have any issues or questions, reach out to us on [Discord](https://discord.com/invite/payload) or start a [GitHub discussion](https://github.com/payloadcms/payload/discussions).
+
+## unit test
+
+## Unit Testing Instructions
+
+### Prerequisites
+- Node.js and npm installed on your machine
+- Testing environment set up (e.g., Jest)
+
+### Running Unit Tests Locally
+1. Navigate to the root directory of the project.
+2. Install dependencies if you haven't already:
+   ```bash
+   npm install
+
+# Run unit tests:
+
+## npm test
+
+## View test results in the console output.
+## Writing Unit Tests
+## Identify specific functions, modules, or components to test.
+## Write tests using Jest or your preferred testing framework.
+## over various scenarios and edge cases to ensure comprehensive test coverage.
+## Aim for isolated tests that do not rely on external dependencies or state.
+## CI/CD Integration
+## Ensure that unit tests are integrated into your CI/CD pipeline.
+## Configure your CI/CD system to automatically run tests on code changes.
+## Monitor test results and address any failures promptly.
+## Documentation
+## Document the testing process, including setup, running tests, and best practices.
+## Keep documentation updated as the codebase evolves.
